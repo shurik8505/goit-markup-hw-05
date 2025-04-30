@@ -619,6 +619,7 @@ button {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  min-width: 165px;
 }
 
 .footer-btn-svg {
@@ -630,7 +631,8 @@ button {
 }
 .footer-form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .footer-form-wrapper {
