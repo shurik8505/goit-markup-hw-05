@@ -588,6 +588,11 @@ button {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 .footer-input::placeholder {
@@ -596,7 +601,6 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  padding-left: 16px;
 }
 
 .footer-btn {
@@ -620,10 +624,11 @@ button {
   text-align: center;
   color: #fff;
   min-width: 165px;
+  border: none;
 }
 
 .footer-btn-svg {
-  right: 24px;
+  /* margin-left: 16px; */
 }
 .footer-form {
   display: flex;
@@ -639,8 +644,6 @@ button {
   display: flex;
   gap: 24px;
 }
-
-
 
 /* ==============MODAL===================== */
 
