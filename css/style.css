@@ -593,11 +593,11 @@ button {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-   color: #fff;
+   color: #ffffff;
 }
 
 .footer-input::placeholder {
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-btn {
@@ -625,7 +625,7 @@ button {
 }
 
 .footer-btn-svg {
-  /* margin-left: 16px; */
+  margin-left: 16px;
 }
 .footer-form {
   display: flex;
