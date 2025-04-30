@@ -605,7 +605,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
+  /* gap: 16px; */
 
   border-radius: 4px;
   padding: 8px 24px;
@@ -627,6 +627,7 @@ button {
 .footer-btn-svg {
   margin-left: 16px;
 }
+
 .footer-form {
   display: flex;
   flex-direction: row;
