@@ -716,6 +716,7 @@ button {
   height: 40px;
   margin-bottom: 8px;
   background-color: transparent;
+  outline: transparent;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -762,11 +763,10 @@ button {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 51, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .modal-text:focus {
@@ -778,13 +778,15 @@ button {
 }
 
 .modal-btn-send {
-  display: flex;
+  display: block;
+  min-width: 169px;
   gap: 10px;
 
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
+  border: none;
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -806,7 +808,7 @@ button {
 .modal-btn-send:hover,
 .modal-btn-send:focus {
   border: none;
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .modal-check {
@@ -817,17 +819,27 @@ button {
 
 .modal-check:checked + .check-text span {
   background-color: #404bbf;
-  fill: #fff;
+  border: none;
+  fill: #F4F4FD;
 }
 
 .check-text {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: flex;
   align-items: center;
+}
+
+.check.span {
+  display: inline-flex; 
+  width: 16px;
+  height: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-link {
