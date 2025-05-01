@@ -827,7 +827,7 @@ button {
 .modal-check {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-bottom: 24px;
+  
 }
 
 .modal-check:checked + .check-text span {
@@ -844,6 +844,7 @@ button {
   color: #8e8f99;
   display: flex;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 .check.span {
