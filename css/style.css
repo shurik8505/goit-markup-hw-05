@@ -778,7 +778,7 @@ button {
   border-radius: 4px;
   outline: transparent;
   padding: 8px 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 
   font-size: 12px;
   line-height: 1.17;
@@ -836,6 +836,10 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.check {
+  margin-bottom: 8px;
+}
+
 .modal-check:checked + .check-text span {
   background-color: #404bbf;
   border: none;
@@ -854,6 +858,12 @@ button {
 }
 
 .check-span {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-link {
@@ -864,12 +874,6 @@ button {
 }
 
 .check-text span {
-  display: inline-flex;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 16px;
-  height: 16px;
   position: relative;
   width: 20px;
   height: 20px;
