@@ -858,9 +858,6 @@ button {
 }
 
 .check-span {
-  width: 16px;
-  height: 16px;
-  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -884,4 +881,7 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
 }
