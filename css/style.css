@@ -852,10 +852,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   margin-bottom: 24px;
-  display: inline-flex;
+  
 }
 
 .check-span {
@@ -878,7 +878,7 @@ button {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
