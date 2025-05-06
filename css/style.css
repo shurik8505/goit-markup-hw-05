@@ -771,7 +771,6 @@ button {
 }
 
 .modal-text {
-  padding: 72px 24px 24px 24px;
   width: 100%;
   height: 120px;
   resize: none;
@@ -848,6 +847,7 @@ button {
 }
 
 .check-text {
+  display: inline-flex;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -872,7 +872,6 @@ button {
 }
 
 .check-text span {
-  display: inline-flex;
   position: relative;
   width: 20px;
   height: 20px;
