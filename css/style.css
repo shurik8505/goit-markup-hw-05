@@ -848,7 +848,6 @@ button {
 }
 
 .check-text {
-    display: inline-flex;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -860,7 +859,6 @@ button {
 }
 
 .check-span {
-    display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -874,7 +872,6 @@ button {
 }
 
 .check-text span {
-  display: inline-flex;
   position: relative;
   width: 20px;
   height: 20px;
@@ -884,6 +881,7 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
   width: 16px;
   height: 16px;
 }
