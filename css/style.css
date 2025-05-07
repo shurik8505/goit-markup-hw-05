@@ -873,7 +873,7 @@ button {
   margin-left: 5px;
 }
 
-.check-text span {
+.check-span {
   position: relative;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
